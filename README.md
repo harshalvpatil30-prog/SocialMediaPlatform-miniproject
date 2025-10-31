@@ -6,11 +6,17 @@ It allows users to create accounts, share posts, like, comment, manage friends, 
 🎯 Project Objective
 
 To develop a Java desktop social media app that enables users to:
+
 Register and log in securely
+
 Create and view posts
+
 Like or dislike posts
+
 Comment on posts
+
 Manage friends and relationships
+
 View timelines and profile information
 
 🧩 Features

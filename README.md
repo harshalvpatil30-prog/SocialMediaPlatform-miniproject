@@ -6,35 +6,22 @@ It allows users to create accounts, share posts, like, comment, manage friends, 
 🎯 Project Objective
 
 To develop a Java desktop social media app that enables users to:
-
 Register and log in securely
-
 Create and view posts
-
 Like or dislike posts
-
 Comment on posts
-
 Manage friends and relationships
-
 View timelines and profile information
 
 🧩 Features
 
 👤 User Authentication – Secure login and signup
-
 📝 Post Creation – Share your thoughts instantly
-
 ❤️ Like System – Like/Unlike posts dynamically
-
 💬 Comments – Add and view post comments
-
 👯 Friendship System – Add or remove friends
-
 🏠 Home Timeline – View your friends’ latest posts
-
 🪟 Modern GUI – Custom Swing components with smooth UX
-
 🧠 MVC Architecture – Separation of model, view, and controller logic
 
 🏗️ Project Structure
@@ -54,49 +41,41 @@ Database	MySQL (via JDBC)
 Architecture	MVC Pattern
 IDE	IntelliJ IDEA Community Edition
 Build System	Manual / Native (no framework)
+
 🧠 Core Algorithms Implemented
+
 🔹 Model Layer
 
 User.java → Manages profile, likes, and friends lists
-
 Post.java → Represents posts with timestamp & author
-
 Comment.java → Represents user comments on posts
-
 Database.java → Manages JDBC connection
 
 🔹 Controller Layer
 
 Handles all database operations:
-
 CreateUser, ReadUser, UpdateUser, ChangePassword
-
 CreatePost, ReadUserPosts, LikePost, DislikePost
-
 ReadPostComments, ReadPostLikes, AddFriend, RemoveFriend
 
 🔹 View Layer
 
 Contains Swing UI components:
-
 Login / Register / Home / Modify / Comments / Alert
-
 Post & Friend panels, Custom Buttons, Rounded Text Fields, etc.
 
 🧰 Setup Instructions
+
 🔸 1. Clone the Repository
-git clone https://github.com/yourusername/SocialMediaPlatform.git
+git clone [https://github.com/harshalvpatil30-prog/SocialMediaPlatform-miniproject]
 
 🔸 2. Open in IntelliJ IDEA
-
 Go to File → Open and select the project folder.
 
 🔸 3. Configure MySQL
 
 Create a database named socialmedia
-
 Import your provided SQL schema (if available)
-
 Update credentials in Model/Database.java:
 
 private String user = "root";
@@ -106,33 +85,23 @@ private String url = "jdbc:mysql://localhost:3307/socialmedia";
 🔸 4. Run the Application
 
 Run SocialMediaPlatform.Main.java
-
 The login/register window should appear.
 
 🪄 Output Overview
 
 Welcome / Login Page
-
 Home Page – shows timeline with posts
-
 Like/Comment System – interactive icons
-
 Friends Page – add or remove friends
-
 Modify Profile Page
-
 Change Password / Alerts
 
 🚀 Future Enhancements
 
 Dark mode theme 🌙
-
 Real-time updates (via WebSocket or Firebase)
-
 Image upload support
-
 Notification system
-
 Migration to JavaFX or a web-based frontend (Angular/React)
 
 👨‍💻 Author
